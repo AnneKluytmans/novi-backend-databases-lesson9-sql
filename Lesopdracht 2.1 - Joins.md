@@ -1,12 +1,12 @@
-### Oefening 2: Murder mystery oplossen met SQL joins
+# Oefening 2: Murder mystery oplossen met SQL joins
 
 **Doel**: Gebruik SQL-commando's en joins om een moordmysterie op te lossen. Leer hoe je gegevens uit verschillende tabellen kunt combineren om informatie te analyseren en conclusies te trekken.
 
-#### Scenario
+## Scenario
 
 Er is een moord gepleegd in een groot landhuis en er zijn vijf verdachten. Elk van deze verdachten heeft een alibi, en er zijn getuigen die verklaringen hebben afgelegd. Aan jullie de taak om de dader te vinden door de gegevens in de database te analyseren.
 
-#### Gegevensstructuur
+## Gegevensstructuur
 
 Er zijn drie tabellen: `suspects`, `alibis`, en `witness_statements`.
 
@@ -74,13 +74,13 @@ Er zijn drie tabellen: `suspects`, `alibis`, en `witness_statements`.
    (5, 'Heard him fixing the car', '2024-07-05 14:00:00');
    ```
 
-#### Opdracht
+## Opdracht
 
 1. **Selecteer alle gegevens** uit de tabellen om een overzicht te krijgen.
 2. **Gebruik joins** om de verdachten, alibi's en getuigenverklaringen te combineren en bepaal wie de dader is.
 
 <details>
-<summary>Hints als Stappenplan</summary>
+<summary>Hints - stappenplan</summary>
 
 1. **Gegevens selecteren**:
    - Gebruik het `SELECT` commando om alle gegevens uit de `suspects` tabel op te halen.
@@ -118,8 +118,10 @@ Er zijn drie tabellen: `suspects`, `alibis`, en `witness_statements`.
 
 </details>
 
+---
+
 <details>
-<summary>Volledige Uitwerking</summary>
+<summary>Volledige uitwerking</summary>
 
 1. **Gegevens selecteren**:
 

@@ -1,8 +1,8 @@
-### Vervolg Oefening: relaties opzetten met een nieuwe tabel van honden
+# Vervolg oefening: relaties opzetten met een nieuwe tabel van honden
 
 **Doel**: Leer hoe je een nieuwe tabel aanmaakt en een relatie opzet tussen de `owners` en `dogs` tabellen in PostgreSQL.
 
-#### Opdracht
+## Opdracht
 
 1. **Maak een nieuwe tabel** genaamd `dogs` met de volgende kolommen:
    - `dog_id` (integer, primaire sleutel)
@@ -17,7 +17,7 @@
 4. **Maak een query** die de namen van de honden en de namen van hun eigenaren toont.
 
 <details>
-<summary>Hints als Stappenplan</summary>
+<summary>Hints - stappenplan</summary>
 
 1. **Nieuwe tabel aanmaken**:
    - Gebruik het `CREATE TABLE` commando om de `dogs` tabel aan te maken.
@@ -61,8 +61,10 @@
 
 </details>
 
+---
+
 <details>
-<summary>Volledige Uitwerking</summary>
+<summary>Volledige uitwerking</summary>
 
 1. **Nieuwe tabel aanmaken**:
 

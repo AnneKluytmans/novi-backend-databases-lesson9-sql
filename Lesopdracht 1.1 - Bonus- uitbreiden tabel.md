@@ -1,8 +1,8 @@
-## Bonus: aanpassing van de tabel met plaatsnaam
+# Bonus: aanpassing van de tabel met plaatsnaam
 
 **Doel**: Leer hoe je een tabel aanpast om extra kolommen toe te voegen, gegevens invoegt die speciale karakters bevatten en gebruik maakt van het `LIKE` commando.
 
-### Opdracht
+## Opdracht
 
 1. **Voeg een kolom toe** genaamd `city` aan de bestaande `owners` tabel.
 
@@ -13,7 +13,7 @@
 4. **Zoek gegevens** in de tabel met behulp van het `LIKE` commando. bv. alle steden met `en` in de naam.
 
 <details>
-<summary>Hints stappenplan</summary>
+<summary>Hints - stappenplan</summary>
 
 1. **Kolom toevoegen**:
     - Gebruik het `ALTER TABLE` commando om de `city` kolom aan de `owners` tabel toe te voegen.
@@ -50,6 +50,8 @@
    ```
 
 </details>
+
+---
 
 <details>
 <summary>Volledige uitwerking</summary>
