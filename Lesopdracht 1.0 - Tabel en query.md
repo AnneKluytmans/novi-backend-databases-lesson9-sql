@@ -28,27 +28,19 @@
 
    ```sql
    CREATE TABLE owners (
-       id SERIAL PRIMARY KEY,
-       name VARCHAR(255),
-       address VARCHAR(255)
+      <vul hier aaan>
    );
    ```
 
 2. **Gegevens invoegen**:
     - Gebruik het `INSERT INTO` commando om gegevens in de `owners` tabel in te voegen.
-    - Hier zijn enkele voorbeeldinserts. Probeer eerst zelf na te denken over de insert queries en vergelijk dan met de gegeven voorbeelden.
 
-   ```sql
-   INSERT INTO owners (name, address) VALUES ('John Doe', '123 Elm Street');
-   INSERT INTO owners (name, address) VALUES ('Jane Smith', '456 Oak Avenue');
-   INSERT INTO owners (name, address) VALUES ('Jim Brown', '789 Pine Road');
-   ```
 
 3. **Gegevens selecteren**:
     - Gebruik het `SELECT` commando om alle gegevens uit de `owners` tabel op te halen.
 
    ```sql
-   SELECT * FROM owners;
+   select <welke kolommen> from  <tabel naam>
    ```
 
 4. **Gegevens bijwerken**:
@@ -56,16 +48,14 @@
 
    ```sql
    UPDATE owners
-   SET address = '321 Birch Lane'
-   WHERE name = 'John Doe';
+   SET address <vul aan>
    ```
 
 5. **Gegevens verwijderen**:
     - Gebruik het `DELETE` commando om een eigenaar uit de tabel te verwijderen.
 
    ```sql
-   DELETE FROM owners
-   WHERE name = 'Jane Smith';
+   DELETE FROM <vul aan en vergeet het filter niet om te voorkomen dat je alles verwijderd>
    ```
 </details>
 

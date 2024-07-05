@@ -85,16 +85,11 @@ Er zijn drie tabellen: `suspects`, `alibis`, en `witness_statements`.
 1. **Gegevens selecteren**:
    - Gebruik het `SELECT` commando om alle gegevens uit de `suspects` tabel op te halen.
 
-   ```sql
-   SELECT * FROM suspects;
-   ```
+
 
    - Doe hetzelfde voor de `alibis` en `witness_statements` tabellen.
 
-   ```sql
-   SELECT * FROM alibis;
-   SELECT * FROM witness_statements;
-   ```
+
 
 2. **Joins gebruiken**:
    - Gebruik een `INNER JOIN` om de gegevens uit de `suspects` en `alibis` tabellen te combineren.
@@ -105,13 +100,13 @@ Er zijn drie tabellen: `suspects`, `alibis`, en `witness_statements`.
    INNER JOIN alibis a ON s.id = a.suspect_id;
    ```
 
-   - Gebruik een `LEFT JOIN` om ook getuigenverklaringen toe te voegen.
+   - Gebruik een join om ook getuigenverklaringen toe te voegen.
 
    ```sql
    SELECT s.name, s.occupation, a.alibi, w.statement, w.time_reported
    FROM suspects s
-   LEFT JOIN alibis a ON s.id = a.suspect_id
-   LEFT JOIN witness_statements w ON s.id = w.suspect_id;
+   <vul join type in> alibis a ON s.id = a.suspect_id
+   <vul join type in> witness_statements w ON s.id = w.suspect_id;
    ```
 
    - Analyseer de resultaten om te zien wie de dader zou kunnen zijn.
