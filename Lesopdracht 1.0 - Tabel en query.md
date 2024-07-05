@@ -28,7 +28,7 @@
 
    ```sql
    CREATE TABLE owners (
-      <vul hier aaan>
+      <vul hier aan>
    );
    ```
 
