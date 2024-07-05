@@ -65,21 +65,13 @@
 
 2. **Gegevens invoegen**:
 
-   ```sql
-   INSERT INTO owners (name, address, city) VALUES ('Alice Johnson', '111 Maple Street', 'Amsterdam');
-   INSERT INTO owners (name, address, city) VALUES ('Robert Brown', '222 Oak Street', 'Rotterdam');
-   INSERT INTO owners (name, address, city) VALUES ('Emily Clark', '333 Pine Street', 'Eindhoven');
-   INSERT INTO owners (name, address, city) VALUES ('George White', '444 Birch Lane', 'Den Haag');
-   INSERT INTO owners (name, address, city) VALUES ('Hannah Black', '555 Cedar Avenue', '\'s Hertogenbosch');
-   ```
+gebruik het `insert into` commando om de data toe te voegen.
 
 3. **Gegevens selecteren**:
 
-   ```sql
-   SELECT * FROM owners;
-   ```
+Met het `select` commando
 
-   Resultaat:
+Resultaat:
    ```
     id |     name     |       address        |       city
    ----+--------------+-----------------------+----------------
@@ -94,10 +86,7 @@
 
 4. **Gegevens zoeken**:
 
-   ```sql
-   SELECT * FROM owners
-   WHERE city LIKE '%en%';
-   ```
+  gebruik like en een wildcard 
 
    Resultaat:
    ```
