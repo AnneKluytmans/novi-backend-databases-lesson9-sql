@@ -88,14 +88,13 @@
    SELECT * FROM owners;
    ```
 
-   Resultaat:
-   ```
-    id |    name    |      address
-   ----+------------+-----------------
-     1 | John Doe   | 123 Elm Street
-     2 | Jane Smith | 456 Oak Avenue
-     3 | Jim Brown  | 789 Pine Road
-   ```
+**Resultaat:**
+
+| id | name       | address        |
+|----|------------|----------------|
+| 1  | John Doe   | 123 Elm Street |
+| 2  | Jane Smith | 456 Oak Avenue |
+| 3  | Jim Brown  | 789 Pine Road  |
 
 4. **Update gegevens**:
 
@@ -118,13 +117,12 @@
    SELECT * FROM owners;
    ```
 
-   Resultaat na verwijderen:
-   ```
-    id |    name   |     address
-   ----+-----------+----------------
-     1 | John Doe  | 321 Birch Lane
-     3 | Jim Brown | 789 Pine Road
-   ```
-</details>
+**Resultaat: na verwijderen:**
 
+| id | name      | address        |
+|----|-----------|----------------|
+| 1  | John Doe  | 321 Birch Lane |
+| 3  | Jim Brown | 789 Pine Road  |
+
+</details>
 
