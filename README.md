@@ -1,6 +1,6 @@
 # PostgreSQL
 
-Dit zijn de lesopdrachten voor de PostgreSQL databases
+Lesopdrachten voor de PostgreSQL databases
 - 
 - [Lesopdracht 1.0 - Tabel en query.md](Lesopdracht%201.0%20-%20Tabel%20en%20query.md)
 - [Lesopdracht 1.1 - Bonus- uitbreiden tabel.md](Lesopdracht%201.1%20-%20Bonus-%20uitbreiden%20tabel.md)
