@@ -71,32 +71,31 @@ gebruik het `insert into` commando om de data toe te voegen.
 
 Met het `select` commando
 
-Resultaat:
-   ```
-    id |     name     |       address        |       city
-   ----+--------------+-----------------------+----------------
-     1 | John Doe     | 321 Birch Lane        | NULL
-     3 | Jim Brown    | 789 Pine Road         | NULL
-     4 | Alice Johnson| 111 Maple Street      | Amsterdam
-     5 | Robert Brown | 222 Oak Street        | Rotterdam
-     6 | Emily Clark  | 333 Pine Street       | Eindhoven
-     7 | George White | 444 Birch Lane        | Den Haag
-     8 | Hannah Black | 555 Cedar Avenue      | 's Hertogenbosch
-   ```
+**Resultaat:**
+
+| id | name          | address          | city             |
+|----|---------------|------------------|------------------|
+| 1  | John Doe      | 321 Birch Lane   | NULL             |
+| 3  | Jim Brown     | 789 Pine Road    | NULL             |
+| 4  | Alice Johnson | 111 Maple Street | Amsterdam        |
+| 5  | Robert Brown  | 222 Oak Street   | Rotterdam        |
+| 6  | Emily Clark   | 333 Pine Street  | Eindhoven        |
+| 7  | George White  | 444 Birch Lane   | Den Haag         |
+| 8  | Hannah Black  | 555 Cedar Avenue | 's Hertogenbosch |
+
 
 4. **Gegevens zoeken**:
 
-  gebruik like en een wildcard 
+gebruik like en een wildcard
 
-   Resultaat:
-   ```
-    id |     name     |       address        |     city
-   ----+--------------+-----------------------+--------------
-     7 | George White | 444 Birch Lane        | Den Haag
-     8 | Hannah Black | 555 Cedar Avenue      | 's Hertogenbosch
-   ```
+**Resultaat:**
 
-   Gebruik ook andere variaties van het `LIKE` commando om te zien welke resultaten je kunt krijgen, bijvoorbeeld:
+| id | name         | address          | city             |
+|----|--------------|------------------|------------------|
+| 7  | George White | 444 Birch Lane   | Den Haag         |
+| 8  | Hannah Black | 555 Cedar Avenue | 's Hertogenbosch |
+
+Gebruik ook andere variaties van het `LIKE` commando om te zien welke resultaten je kunt krijgen, bijvoorbeeld:
 
    ```sql
    SELECT * FROM owners
