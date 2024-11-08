@@ -53,13 +53,19 @@ SELECT * FROM suspects;
 SELECT * FROM alibis;
 SELECT * FROM witness_statements;
 
+-- Toon alle verdachten met een alibi
+-- In dit geval kun je het beste INNER JOIN gebruiken, omdat je daarmee alleen de verdachten
+-- met een alibi weergeeft.
 SELECT s.name, s.occupation, a.alibi
 FROM suspects s
 INNER JOIN alibis a ON s.id = a.suspect_id;
 
+-- Toon alle verdachten, alibi's en getuigenverklaringen
+-- In dit geval kun je het beste LEFT JOIN gebruiken, omdat je daarmee alle verdachten weergeeft,
+-- ongeacht of er een alibi of getuigenverklaring aan hen is gekoppeld.
 SELECT s.name, s.occupation, a.alibi, w.statement, w.time_reported
 FROM suspects s
-INNER JOIN alibis a ON s.id = a.suspect_id
-INNER JOIN witness_statements w ON s.id = w.suspect_id;
+LEFT JOIN alibis a ON s.id = a.suspect_id
+LEFT JOIN witness_statements w ON s.id = w.suspect_id;
 
 --Based on the data suspect 3, Emily Clark, is most likely to be the murderer
