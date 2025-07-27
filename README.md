@@ -1,42 +1,64 @@
-# PostgreSQL
+# PostgreSQL Exercises – NOVI Backend Module
 
-Lesopdrachten voor de PostgreSQL databases
-- 
-- [Lesopdracht 1.0 - Tabel en query.md](Lesopdracht%201.0%20-%20Tabel%20en%20query.md)
-- [Lesopdracht 1.1 - Bonus- uitbreiden tabel.md](Lesopdracht%201.1%20-%20Bonus-%20uitbreiden%20tabel.md)
-- [Lesopdracht 2.0 - Toevoegen relatie.md](Lesopdracht%202.0%20-%20Toevoegen%20relatie.md)
-- [Lesopdracht 2.1 - Joins.md](Lesopdracht%202.1%20-%20Joins.md)
-- [Lesopdracht 2.2 - Extra Joins.md](Lesopdracht%202.2%20-%20Extra%20Joins.md)
-## Tips voor het gebruik van hints en uitwerkingen
+## About the Project
 
-Wanneer je met opdrachten of problemen aan de slag gaat, is het slim om een plan te hebben. Hier zijn een paar tips om je te helpen de lesstof echt goed te begrijpen.
+This repository contains the **PostgreSQL** assignment part of the Backend Development module at [Novi University](https://www.novi.nl).
 
-### Probeer het eerst zelf
+The goal of these assignments is to build foundational knowledge of **relational database design**, **SQL syntax**, and **data manipulation** using PostgreSQL. The exercises range from simple `SELECT` statements to complex `JOIN` queries across multiple tables.
 
-Voordat je naar hints of uitwerkingen kijkt, is het belangrijk om eerst zelf een poging te doen. Dit helpt je om:
+---
 
--   Je eigen manier van denken te ontwikkelen.
--   Je sterke en zwakke punten te ontdekken.
--   Meer zelfvertrouwen te krijgen in het oplossen van problemen.
+## Table of Contents
 
-### Gebruik hints als je echt vastzit
+- [Tech Stack](#tech-stack)
+- [Key Topics](#key-topics)
+- [How to Use](#how-to-use)
+- [Credits](#credits)
+- [License](#license)
 
-Als je vastloopt en echt niet meer weet hoe je verder moet, kun je hints gebruiken. Hints geven je een zetje in de goede richting zonder meteen de oplossing te verklappen. Dit helpt je om:
+---
 
--   Je gedachten te ordenen.
--   Kleine stapjes te zetten richting de oplossing.
--   Zelfredzamer te worden.
+## Tech Stack
 
-### Bekijk de uitwerking als laatste redmiddel
+- **PostgreSQL**
+- **SQL**
+- **pgAdmin**
+- Terminal or command-line
 
-Als je het probleem nog steeds niet kunt oplossen met hints, of als je je oplossing wilt controleren, kun je naar de uitwerking kijken. De uitwerking laat je zien hoe het probleem opgelost kan worden en helpt je om:
+---
 
--   Te begrijpen hoe je de opdracht goed had kunnen aanpakken.
--   Te leren van je fouten.
--   Nieuwe strategieën en methoden te ontdekken die je later kunt gebruiken.
+## Key Topics
 
-### Waarom deze aanpak werkt
+- Creating tables (`CREATE TABLE`)
+- Modifying tables (`ALTER TABLE`)
+- Foreign keys and relationships
+- Data types: `INTEGER`, `VARCHAR`, `BOOLEAN`, etc.
+- Data manipulation: `INSERT`, `UPDATE`, `DELETE`
+- Querying data: `SELECT`, `WHERE`, `ORDER BY`, `LIKE`
+- Joining tables: `INNER JOIN`, `LEFT JOIN`, etc.
+- Filtering and conditions
 
-Door eerst zelf te proberen en daarna pas hints en uitwerkingen te gebruiken, zorg je ervoor dat je echt actief bezig bent met de lesstof. Je leert problemen zelf op te lossen en ontwikkelt belangrijke vaardigheden. Hints zijn er om je te helpen als je even vastzit, en uitwerkingen zijn er om van te leren als je het echt niet meer weet of je werk wilt controleren.
+---
 
-Onthoud: leren is een proces en fouten maken hoort erbij. Met deze aanpak maak je optimaal gebruik van de hulpmiddelen die je hebt, terwijl je je eigen leerproces verbetert. Veel succes met je studie!
+## How to Use
+
+1. Clone this repository:
+    ```bash
+    git@github.com:AnneKluytmans/novi-backend-databases-lesson9-sql.git
+    ```
+   or
+    ```bash
+    git clone https://github.com/AnneKluytmans/novi-backend-databases-lesson9-sql.git
+    ```
+2. Open your PostgreSQL client (pgAdmin, DBeaver, etc.)
+
+3. Create a new database for testing.
+
+4. Run the SQL scripts in order
+
+
+## Credits
+> "This assignment was developed as part of the Backend Java module in the NOVI Software Development program. All instructions, logic, and structure are part of the official coursework."
+
+## License
+> "This repository is intended for educational purposes only. You are welcome to use the code for learning, but not for commercial use."
