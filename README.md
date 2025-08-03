@@ -42,14 +42,7 @@ The goal of these assignments is to build foundational knowledge of **relational
 
 ## How to Use
 
-1. Clone this repository:
-    ```bash
-    git@github.com:AnneKluytmans/novi-backend-databases-lesson9-sql.git
-    ```
-   or
-    ```bash
-    git clone https://github.com/AnneKluytmans/novi-backend-databases-lesson9-sql.git
-    ```
+1. Clone this repository or open this project in your IDE
 2. Open your PostgreSQL client (pgAdmin, DBeaver, etc.)
 
 3. Create a new database for testing.
